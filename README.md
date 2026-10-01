@@ -2,6 +2,15 @@
 
 Konsolowy analizator nieudanych jobów `test` w pipeline GitLab: pobiera log, wybiera istotne fragmenty (BM25 + heurystyka), anonimizuje (`Anonymizer.Core`) i prosi LLM o podsumowanie błędu i sugestie. Specyfikacja: `opis.md`, plan: `PLAN.md`.
 
+## Budowanie
+Biblioteka anonimizująca jest w osobnym repo i referencjonowana ścieżką względną. Sklonuj oba repo obok siebie:
+
+```
+git clone https://github.com/PiotrFerenc/Anonimizator.git
+git clone https://github.com/PiotrFerenc/PipelineClip.git
+cd PipelineClip && dotnet build
+```
+
 ## Konfiguracja
 Skopiuj `PipelineClip.Cli/appsettings.Example.json` do `appsettings.json` (gitignored) i uzupełnij `GitLab` (BaseAddress, ProjectId, ApiKey) oraz `TestStageAnalysis` (BaseAddress, Model, ApiKey). Format API LLM: zgodny z `POST chat/completions`.
 
