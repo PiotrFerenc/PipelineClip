@@ -1,0 +1,302 @@
+  Determining projects to restore...
+  Restored /builds/acme/shop/src/Shop.Module1/Shop.Module1.csproj (in 107 ms).
+  Restored /builds/acme/shop/src/Shop.Module2/Shop.Module2.csproj (in 114 ms).
+  Restored /builds/acme/shop/src/Shop.Module3/Shop.Module3.csproj (in 121 ms).
+  Restored /builds/acme/shop/src/Shop.Module4/Shop.Module4.csproj (in 128 ms).
+  Restored /builds/acme/shop/src/Shop.Module5/Shop.Module5.csproj (in 135 ms).
+  Restored /builds/acme/shop/src/Shop.Module6/Shop.Module6.csproj (in 142 ms).
+  Restored /builds/acme/shop/src/Shop.Module7/Shop.Module7.csproj (in 149 ms).
+  Restored /builds/acme/shop/src/Shop.Module8/Shop.Module8.csproj (in 156 ms).
+  Restored /builds/acme/shop/src/Shop.Module9/Shop.Module9.csproj (in 163 ms).
+  Restored /builds/acme/shop/src/Shop.Module10/Shop.Module10.csproj (in 170 ms).
+  Restored /builds/acme/shop/src/Shop.Module11/Shop.Module11.csproj (in 177 ms).
+  Restored /builds/acme/shop/src/Shop.Module12/Shop.Module12.csproj (in 184 ms).
+  Restored /builds/acme/shop/src/Shop.Module13/Shop.Module13.csproj (in 191 ms).
+  Restored /builds/acme/shop/src/Shop.Module14/Shop.Module14.csproj (in 198 ms).
+  Restored /builds/acme/shop/src/Shop.Module15/Shop.Module15.csproj (in 205 ms).
+  Restored /builds/acme/shop/src/Shop.Module16/Shop.Module16.csproj (in 212 ms).
+  Restored /builds/acme/shop/src/Shop.Module17/Shop.Module17.csproj (in 219 ms).
+  Restored /builds/acme/shop/src/Shop.Module18/Shop.Module18.csproj (in 226 ms).
+  Restored /builds/acme/shop/src/Shop.Module19/Shop.Module19.csproj (in 233 ms).
+  Restored /builds/acme/shop/src/Shop.Module20/Shop.Module20.csproj (in 240 ms).
+  Restored /builds/acme/shop/src/Shop.Module21/Shop.Module21.csproj (in 247 ms).
+  Restored /builds/acme/shop/src/Shop.Module22/Shop.Module22.csproj (in 254 ms).
+  Restored /builds/acme/shop/src/Shop.Module23/Shop.Module23.csproj (in 261 ms).
+  Restored /builds/acme/shop/src/Shop.Module24/Shop.Module24.csproj (in 268 ms).
+  Restored /builds/acme/shop/src/Shop.Module25/Shop.Module25.csproj (in 275 ms).
+  Restored /builds/acme/shop/src/Shop.Module26/Shop.Module26.csproj (in 282 ms).
+  Restored /builds/acme/shop/src/Shop.Module27/Shop.Module27.csproj (in 289 ms).
+  Restored /builds/acme/shop/src/Shop.Module28/Shop.Module28.csproj (in 296 ms).
+  Restored /builds/acme/shop/src/Shop.Module29/Shop.Module29.csproj (in 303 ms).
+  Restored /builds/acme/shop/src/Shop.Module30/Shop.Module30.csproj (in 310 ms).
+  Restored /builds/acme/shop/src/Shop.Module31/Shop.Module31.csproj (in 317 ms).
+  Restored /builds/acme/shop/src/Shop.Module32/Shop.Module32.csproj (in 324 ms).
+  Restored /builds/acme/shop/src/Shop.Module33/Shop.Module33.csproj (in 331 ms).
+  Restored /builds/acme/shop/src/Shop.Module34/Shop.Module34.csproj (in 338 ms).
+  Restored /builds/acme/shop/src/Shop.Module35/Shop.Module35.csproj (in 345 ms).
+  Restored /builds/acme/shop/src/Shop.Module36/Shop.Module36.csproj (in 352 ms).
+  Restored /builds/acme/shop/src/Shop.Module37/Shop.Module37.csproj (in 359 ms).
+  Restored /builds/acme/shop/src/Shop.Module38/Shop.Module38.csproj (in 366 ms).
+  Restored /builds/acme/shop/src/Shop.Module39/Shop.Module39.csproj (in 373 ms).
+  Restored /builds/acme/shop/src/Shop.Module40/Shop.Module40.csproj (in 380 ms).
+  Restore complete (4.2s)
+  Shop.Domain -> /builds/acme/shop/src/Shop.Domain/bin/Debug/net10.0/Shop.Domain.dll
+  Shop.Application -> /builds/acme/shop/src/Shop.Application/bin/Debug/net10.0/Shop.Application.dll
+  Shop.Infrastructure -> /builds/acme/shop/src/Shop.Infrastructure/bin/Debug/net10.0/Shop.Infrastructure.dll
+  Shop.Web -> /builds/acme/shop/src/Shop.Web/bin/Debug/net10.0/Shop.Web.dll
+Build succeeded in 18.7s
+Test run for /builds/acme/shop/tests/Shop.Tests/bin/Debug/net10.0/Shop.Tests.dll (.NETCoreApp,Version=v10.0)
+VSTest version 17.14.1 (x64)
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+  Passed Shop.Tests.CartTests.Scenario_01 [4 ms]
+  Passed Shop.Tests.CartTests.Scenario_02 [7 ms]
+  Passed Shop.Tests.CartTests.Scenario_03 [10 ms]
+  Passed Shop.Tests.CartTests.Scenario_04 [13 ms]
+  Passed Shop.Tests.CartTests.Scenario_05 [16 ms]
+  Passed Shop.Tests.CartTests.Scenario_06 [19 ms]
+  Passed Shop.Tests.CartTests.Scenario_07 [22 ms]
+  Passed Shop.Tests.CartTests.Scenario_08 [25 ms]
+  Passed Shop.Tests.CartTests.Scenario_09 [28 ms]
+  Passed Shop.Tests.CartTests.Scenario_10 [31 ms]
+  Passed Shop.Tests.CartTests.Scenario_11 [34 ms]
+  Passed Shop.Tests.CartTests.Scenario_12 [37 ms]
+  Passed Shop.Tests.CartTests.Scenario_13 [40 ms]
+  Passed Shop.Tests.CartTests.Scenario_14 [3 ms]
+  Passed Shop.Tests.CartTests.Scenario_15 [6 ms]
+  Passed Shop.Tests.CartTests.Scenario_16 [9 ms]
+  Passed Shop.Tests.CartTests.Scenario_17 [12 ms]
+  Passed Shop.Tests.CartTests.Scenario_18 [15 ms]
+  Passed Shop.Tests.CartTests.Scenario_19 [18 ms]
+  Passed Shop.Tests.CartTests.Scenario_20 [21 ms]
+  Passed Shop.Tests.CartTests.Scenario_21 [24 ms]
+  Passed Shop.Tests.CartTests.Scenario_22 [27 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_01 [4 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_02 [7 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_03 [10 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_04 [13 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_05 [16 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_06 [19 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_07 [22 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_08 [25 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_09 [28 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_10 [31 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_11 [34 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_12 [37 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_13 [40 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_14 [3 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_15 [6 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_16 [9 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_17 [12 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_18 [15 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_19 [18 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_20 [21 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_21 [24 ms]
+  Passed Shop.Tests.PriceCalculatorTests.Scenario_22 [27 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_01 [4 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_02 [7 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_03 [10 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_04 [13 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_05 [16 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_06 [19 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_07 [22 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_08 [25 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_09 [28 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_10 [31 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_11 [34 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_12 [37 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_13 [40 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_14 [3 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_15 [6 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_16 [9 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_17 [12 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_18 [15 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_19 [18 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_20 [21 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_21 [24 ms]
+  Passed Shop.Tests.OrderServiceTests.Scenario_22 [27 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_01 [4 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_02 [7 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_03 [10 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_04 [13 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_05 [16 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_06 [19 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_07 [22 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_08 [25 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_09 [28 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_10 [31 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_11 [34 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_12 [37 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_13 [40 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_14 [3 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_15 [6 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_16 [9 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_17 [12 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_18 [15 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_19 [18 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_20 [21 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_21 [24 ms]
+  Passed Shop.Tests.CustomerTests.Scenario_22 [27 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_01 [4 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_02 [7 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_03 [10 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_04 [13 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_05 [16 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_06 [19 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_07 [22 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_08 [25 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_09 [28 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_10 [31 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_11 [34 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_12 [37 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_13 [40 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_14 [3 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_15 [6 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_16 [9 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_17 [12 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_18 [15 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_19 [18 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_20 [21 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_21 [24 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_22 [27 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_01 [8 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_02 [15 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_03 [22 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_04 [29 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_05 [6 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_06 [13 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_07 [20 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_08 [27 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_09 [4 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_10 [11 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_11 [18 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_12 [25 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_13 [2 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_14 [9 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_15 [16 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_16 [23 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_17 [30 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_18 [7 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_19 [14 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_20 [21 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_21 [28 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_22 [5 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_23 [12 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_24 [19 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_25 [26 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_26 [3 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_27 [10 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_28 [17 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_29 [24 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_30 [1 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_31 [8 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_32 [15 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_33 [22 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_34 [29 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_35 [6 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_36 [13 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_37 [20 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_38 [27 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_39 [4 ms]
+  Passed Shop.Tests.OrderServiceTests.Extra_40 [11 ms]
+  Passed Shop.Tests.CustomerTests.Extra_01 [8 ms]
+  Passed Shop.Tests.CustomerTests.Extra_02 [15 ms]
+  Passed Shop.Tests.CustomerTests.Extra_03 [22 ms]
+  Passed Shop.Tests.CustomerTests.Extra_04 [29 ms]
+  Passed Shop.Tests.CustomerTests.Extra_05 [6 ms]
+  Passed Shop.Tests.CustomerTests.Extra_06 [13 ms]
+  Passed Shop.Tests.CustomerTests.Extra_07 [20 ms]
+  Passed Shop.Tests.CustomerTests.Extra_08 [27 ms]
+  Passed Shop.Tests.CustomerTests.Extra_09 [4 ms]
+  Passed Shop.Tests.CustomerTests.Extra_10 [11 ms]
+  Passed Shop.Tests.CustomerTests.Extra_11 [18 ms]
+  Passed Shop.Tests.CustomerTests.Extra_12 [25 ms]
+  Passed Shop.Tests.CustomerTests.Extra_13 [2 ms]
+  Passed Shop.Tests.CustomerTests.Extra_14 [9 ms]
+  Passed Shop.Tests.CustomerTests.Extra_15 [16 ms]
+  Passed Shop.Tests.CustomerTests.Extra_16 [23 ms]
+  Passed Shop.Tests.CustomerTests.Extra_17 [30 ms]
+  Passed Shop.Tests.CustomerTests.Extra_18 [7 ms]
+  Passed Shop.Tests.CustomerTests.Extra_19 [14 ms]
+  Passed Shop.Tests.CustomerTests.Extra_20 [21 ms]
+  Passed Shop.Tests.CustomerTests.Extra_21 [28 ms]
+  Passed Shop.Tests.CustomerTests.Extra_22 [5 ms]
+  Passed Shop.Tests.CustomerTests.Extra_23 [12 ms]
+  Passed Shop.Tests.CustomerTests.Extra_24 [19 ms]
+  Passed Shop.Tests.CustomerTests.Extra_25 [26 ms]
+  Passed Shop.Tests.CustomerTests.Extra_26 [3 ms]
+  Passed Shop.Tests.CustomerTests.Extra_27 [10 ms]
+  Passed Shop.Tests.CustomerTests.Extra_28 [17 ms]
+  Passed Shop.Tests.CustomerTests.Extra_29 [24 ms]
+  Passed Shop.Tests.CustomerTests.Extra_30 [1 ms]
+  Passed Shop.Tests.CustomerTests.Extra_31 [8 ms]
+  Passed Shop.Tests.CustomerTests.Extra_32 [15 ms]
+  Passed Shop.Tests.CustomerTests.Extra_33 [22 ms]
+  Passed Shop.Tests.CustomerTests.Extra_34 [29 ms]
+  Passed Shop.Tests.CustomerTests.Extra_35 [6 ms]
+  Passed Shop.Tests.CustomerTests.Extra_36 [13 ms]
+  Passed Shop.Tests.CustomerTests.Extra_37 [20 ms]
+  Passed Shop.Tests.CustomerTests.Extra_38 [27 ms]
+  Passed Shop.Tests.CustomerTests.Extra_39 [4 ms]
+  Passed Shop.Tests.CustomerTests.Extra_40 [11 ms]
+  Passed Shop.Tests.CartTests.Extra_01 [8 ms]
+  Passed Shop.Tests.CartTests.Extra_02 [15 ms]
+  Passed Shop.Tests.CartTests.Extra_03 [22 ms]
+  Passed Shop.Tests.CartTests.Extra_04 [29 ms]
+  Passed Shop.Tests.CartTests.Extra_05 [6 ms]
+  Passed Shop.Tests.CartTests.Extra_06 [13 ms]
+  Passed Shop.Tests.CartTests.Extra_07 [20 ms]
+  Passed Shop.Tests.CartTests.Extra_08 [27 ms]
+  Passed Shop.Tests.CartTests.Extra_09 [4 ms]
+  Passed Shop.Tests.CartTests.Extra_10 [11 ms]
+  Passed Shop.Tests.CartTests.Extra_11 [18 ms]
+  Passed Shop.Tests.CartTests.Extra_12 [25 ms]
+  Passed Shop.Tests.CartTests.Extra_13 [2 ms]
+  Passed Shop.Tests.CartTests.Extra_14 [9 ms]
+  Passed Shop.Tests.CartTests.Extra_15 [16 ms]
+  Passed Shop.Tests.CartTests.Extra_16 [23 ms]
+  Passed Shop.Tests.CartTests.Extra_17 [30 ms]
+  Passed Shop.Tests.CartTests.Extra_18 [7 ms]
+  Passed Shop.Tests.CartTests.Extra_19 [14 ms]
+  Passed Shop.Tests.CartTests.Extra_20 [21 ms]
+  Passed Shop.Tests.CartTests.Extra_21 [28 ms]
+  Passed Shop.Tests.CartTests.Extra_22 [5 ms]
+  Passed Shop.Tests.CartTests.Extra_23 [12 ms]
+  Passed Shop.Tests.CartTests.Extra_24 [19 ms]
+  Passed Shop.Tests.CartTests.Extra_25 [26 ms]
+  Passed Shop.Tests.CartTests.Extra_26 [3 ms]
+  Passed Shop.Tests.CartTests.Extra_27 [10 ms]
+  Passed Shop.Tests.CartTests.Extra_28 [17 ms]
+  Passed Shop.Tests.CartTests.Extra_29 [24 ms]
+  Passed Shop.Tests.CartTests.Extra_30 [1 ms]
+  Passed Shop.Tests.CartTests.Extra_31 [8 ms]
+  Passed Shop.Tests.CartTests.Extra_32 [15 ms]
+  Passed Shop.Tests.CartTests.Extra_33 [22 ms]
+  Passed Shop.Tests.CartTests.Extra_34 [29 ms]
+  Passed Shop.Tests.CartTests.Extra_35 [6 ms]
+  Passed Shop.Tests.CartTests.Extra_36 [13 ms]
+  Passed Shop.Tests.CartTests.Extra_37 [20 ms]
+  Passed Shop.Tests.CartTests.Extra_38 [27 ms]
+  Passed Shop.Tests.CartTests.Extra_39 [4 ms]
+  Passed Shop.Tests.CartTests.Extra_40 [11 ms]
+  Failed Shop.Tests.PriceCalculatorTests.Total_WithDiscount_ReturnsRoundedValue [12 ms]
+  Error Message:
+   Assert.Equal() Failure: Values differ
+Expected: 89.99
+Actual:   90.00
+  Stack Trace:
+     at Shop.Tests.PriceCalculatorTests.Total_WithDiscount_ReturnsRoundedValue() in /builds/acme/shop/tests/Shop.Tests/PriceCalculatorTests.cs:line 58
+     at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+     at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+  Passed Shop.Tests.InventoryTests.Scenario_23 [6 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_24 [7 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_25 [8 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_26 [9 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_27 [1 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_28 [2 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_29 [3 ms]
+  Passed Shop.Tests.InventoryTests.Scenario_30 [4 ms]
+
+Failed!  - Failed:     1, Passed:   238, Skipped:     0, Total:   239, Duration: 3 s - Shop.Tests.dll (net10.0)
+Test Run Failed.
+ERROR: Job failed: exit code 1

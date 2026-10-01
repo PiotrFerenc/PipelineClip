@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="PipelineClip.Cli/PipelineClip.Cli.csproj" />
+  <Project Path="PipelineClip.Core/PipelineClip.Core.csproj" />
+  <Project Path="PipelineClip.Tests/PipelineClip.Tests.csproj" />
+</Solution>
