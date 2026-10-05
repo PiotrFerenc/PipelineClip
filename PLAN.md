@@ -256,7 +256,7 @@ services.Configure<AnalysisOptions>(config.GetSection("Analysis"));
 Reguły:
 - Skill ostrzega, że błędy bindowania są ciche (zostają domyślne). Dlatego dodatkowo: walidacja przy starcie (`BaseAddress` niepusty i poprawny URI, `ApiKey` niepusty, `ProjectId` niepusty dla GitLab, `Model` niepusty, zakresy w `AnalysisOptions`), `ValidateOnStart`. Brak klucza = natychmiastowy błąd z nazwą sekcji i klucza, bez żadnego żądania HTTP.
 - Nazwa sekcji w `GetSection("...")` musi dokładnie (wielkość liter) zgadzać się z nazwą klasy bez `Options`. Test DI w Fazie 7 to pilnuje.
-- Zmienne środowiskowe `PIPELINECLIP_` też nadpisują (domyślne zachowanie hosta, zero kodu).
+- Zmienne środowiskowe też nadpisują, bez prefiksu, z `__` jako separatorem (np. `GitLab__ApiKey`; domyślne zachowanie hosta, zero kodu).
 - Kolejny call site (np. merge w Fazie 9) dostaje własną klasę Options, sekcję, named HttpClient i własny interfejs. Nie współdzieli niczego z `TestStageAnalysis`, nawet gdy wskazuje na ten sam serwer.
 - Wartości limitów (2 MB, 20 chunków) z uzgodnionych wymagań.
 
