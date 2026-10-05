@@ -154,6 +154,11 @@ public class OrchestrationTests
         var w = new StringWriter();
         ConsoleReportWriter.Write(new PipelineReport(1, 0, 0, 0, []), w);
         Assert.Contains("Brak nieudanych jobów test", w.ToString());
+        Assert.Contains("ProjectId", w.ToString());
+
+        w = new StringWriter();
+        ConsoleReportWriter.Write(new PipelineReport(1, 2, 0, 2, []), w);
+        Assert.Contains("TargetStage", w.ToString());
 
         w = new StringWriter();
         ConsoleReportWriter.Write(new PipelineReport(1, 2, 2, 0, [

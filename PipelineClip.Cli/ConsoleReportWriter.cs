@@ -8,7 +8,9 @@ public static class ConsoleReportWriter
     {
         if (r.AnalyzedJobs == 0)
         {
-            w.WriteLine($"Pipeline #{r.PipelineId}: Brak nieudanych jobów test.");
+            w.WriteLine(r.FailedJobsTotal == 0
+                ? $"Pipeline #{r.PipelineId}: Brak nieudanych jobów test. GitLab nie zwrócił żadnego joba failed (sprawdź ProjectId i PipelineId; joby z allow_failure są pomijane, a joby child pipeline nie są widoczne)."
+                : $"Pipeline #{r.PipelineId}: Brak nieudanych jobów test. Nieudanych jobów: {r.FailedJobsTotal}, ale żaden nie jest w stage z Analysis:TargetStage (domyślnie \"test\").");
             return;
         }
         w.WriteLine($"Pipeline #{r.PipelineId}: {r.FailedJobsTotal} nieudane joby, {r.AnalyzedJobs} przeanalizowane, {r.SkippedJobs} pominięty (stage bez strategii)");
