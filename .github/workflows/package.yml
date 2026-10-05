@@ -3,7 +3,11 @@ name: package
 on:
   push:
     branches: [main]
+    tags: ["v*"]
   workflow_dispatch:
+
+permissions:
+  contents: write # release
 
 jobs:
   zip:
@@ -16,3 +20,8 @@ jobs:
         with:
           name: PipelineClip-source
           path: PipelineClip.zip
+      # release tylko po wypchnięciu tagu v*
+      - if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" PipelineClip.zip --title "$GITHUB_REF_NAME" --generate-notes
