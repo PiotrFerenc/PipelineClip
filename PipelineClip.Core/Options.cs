@@ -11,6 +11,7 @@ public class HttpClientOptions
 public class GitLabOptions : HttpClientOptions
 {
     public string ProjectId { get; set; } = "";
+    public long PipelineId { get; set; }   // pipeline z błędem; argument CLI nadpisuje
     public bool IncludeAllowedFailures { get; set; } = false;
 }
 

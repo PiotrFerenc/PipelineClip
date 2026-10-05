@@ -2,10 +2,17 @@ namespace PipelineClip.Cli;
 
 public static class CliArgs
 {
-    public static (long PipelineId, string? ProjectId)? Parse(string[] args)
+    // [pipelineId] [--project <id>]; brakujące wartości przychodzą z configu (GitLab:PipelineId, GitLab:ProjectId)
+    public static (long? PipelineId, string? ProjectId)? Parse(string[] args)
     {
-        if (args.Length is not (1 or 3) || !long.TryParse(args[0], out var id) || id <= 0) return null;
-        if (args.Length == 1) return (id, null);
-        return args[1] == "--project" && args[2].Length > 0 ? (id, args[2]) : null;
+        long? pipeline = null;
+        string? project = null;
+        for (var i = 0; i < args.Length; i++)
+        {
+            if (args[i] == "--project" && project is null && i + 1 < args.Length && args[i + 1].Length > 0) project = args[++i];
+            else if (pipeline is null && long.TryParse(args[i], out var id) && id > 0) pipeline = id;
+            else return null;
+        }
+        return (pipeline, project);
     }
 }

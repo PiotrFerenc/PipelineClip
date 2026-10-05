@@ -136,14 +136,16 @@ public class OrchestrationTests
     [Theory]
     [InlineData("123", 123L, null)]
     [InlineData("123 --project 5", 123L, "5")]
-    public void CliArgs_Valid(string line, long id, string? proj)
+    [InlineData("--project 5", null, "5")]
+    [InlineData("", null, null)]
+    public void CliArgs_Valid(string line, long? id, string? proj)
     {
-        var p = CliArgs.Parse(line.Split(' '));
+        var p = CliArgs.Parse(line.Split(' ', StringSplitOptions.RemoveEmptyEntries));
         Assert.Equal((id, proj), p);
     }
 
     [Theory]
-    [InlineData("")] [InlineData("abc")] [InlineData("0")] [InlineData("1 --x 5")] [InlineData("1 --project")]
+    [InlineData("abc")] [InlineData("0")] [InlineData("1 --x 5")] [InlineData("1 --project")]
     public void CliArgs_Invalid(string line) => Assert.Null(CliArgs.Parse(line.Split(' ', StringSplitOptions.RemoveEmptyEntries)));
 
     [Fact]
